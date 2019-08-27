@@ -11,3 +11,16 @@ data.map((v, k) => {
   });
 });
 ```
+
+##子组件监听 props 变化
+
+```javascript
+componentDidUpdate(prevProps){
+  if(prevProps.item.width!==this.state.width){
+    this.setState({
+      width:prevProps.item.width,
+    })
+  }
+}
+
+```
