@@ -102,3 +102,14 @@ disabledRangeTime = (_, type) => {
     return isPic && isLt500k && isSize;
   }}
 ```
+
+## antd 实时监控页面表单验证错误项
+getFieldsError('form-item的name')
+此方法返回一个包含验证信息的数组
+
+####input禁止输入空格
+```javascript
+  getValueFromEvent: (event) => {
+    return event.target.value.replace(/\s+/g, "")
+  },
+```
