@@ -1,7 +1,8 @@
 ##iconfont 旋转
 需要将其 dispaly 设置为 block 或 inline-block
 
-##X号 关闭
+##X 号 关闭
+
 ```css
 .x {
   position: relative;
@@ -14,7 +15,7 @@
 .x::before {
   content: '';
   width: inherit;
-  border-top: 2px solid #D8D8D8;
+  border-top: 2px solid #d8d8d8;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -24,7 +25,7 @@
 .x::after {
   content: '';
   width: inherit;
-  border-top: 2px solid #D8D8D8;
+  border-top: 2px solid #d8d8d8;
   position: absolute;
   left: 50%;
   top: 50%;
