@@ -32,3 +32,22 @@
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 ```
+
+## 一行文本超出省略/多行省略
+
+```css
+.text-hide {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.two-line {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+}
+```
